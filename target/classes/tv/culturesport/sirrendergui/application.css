@@ -1,0 +1,328 @@
+/* 
+ * JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property
+ */
+
+.scene{
+	-fx-color: #add8e6;
+	-fx-background: #add8e6;
+} 
+
+.root{
+    -fx-background-color: white;
+}
+
+.menu-bar {
+  -fx-background-color: #add8e6;
+}
+
+.table-view{
+   -fx-background-color: transparent;
+}
+
+.table-view:focused{
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(#004e87 0%, #004e87 100%);
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+/*
+.table-view .table-cell{
+    -fx-text-fill: white;
+}
+*/
+
+.table-row-cell{
+    -fx-background-color: -fx-table-cell-border-color, #def3fb;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */
+}
+
+.table-row-cell:odd{
+    -fx-background-color: -fx-table-cell-border-color, #c3dcef;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */  
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #189cff;
+    -fx-text-fill: white;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
+
+.table-view > .virtual-flow > .scroll-bar:vertical,
+.table-view > .virtual-flow > .scroll-bar:vertical > .track,
+.table-view > .virtual-flow > .scroll-bar:vertical > .track-background, 
+.table-view > .virtual-flow > .scroll-bar:horizontal,
+.table-view > .virtual-flow > .scroll-bar:horizontal > .track,
+.table-view > .virtual-flow > .scroll-bar:horizontal > .track-background {
+    -fx-background-color: transparent;
+}
+
+
+
+.table-view > .virtual-flow > .scroll-bar > .increment-button, 
+.table-view > .virtual-flow > .scroll-bar > .decrement-button {
+    -fx-opacity: 0;
+}
+
+
+.table-row-cell:empty {
+    -fx-background-color: white;
+}
+ 
+.table-row-cell:empty .table-cell {
+    -fx-border-width: 0px;
+}
+
+.list-cell:even {
+    -fx-background-color: #def3fb;
+    -fx-text-inner-color: black; 
+}
+
+.list-cell:odd {
+    -fx-background-color: #c3dcef;
+    -fx-text-inner-color: black; 
+}
+
+.list-cell:selected {
+    -fx-background-color: #189cff;
+    -fx-text-inner-color: white; 
+}
+
+/*
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+    -fx-background-color: linear-gradient(#328BDB 0%, #207BCF 25%, #1973C9 75%, #0A65BF 100%);
+    -fx-text-fill: white;
+}
+*/
+
+.grid-view .column-header-background{
+    -fx-background-color: linear-gradient(#004e87 0%, #004e87 100%);
+}
+
+.grid-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.dialog-pane:header .header-panel .label{
+  -fx-background-color: yellow;
+  -fx-background-radius:10px;
+  -fx-text-fill:black;
+  -fx-font-size:24.0px;
+}
+
+#serverName{
+    -fx-background-color: #a7ffeb;
+}
+
+#serverName:focused{
+    -fx-background-color: #fff9c4;
+    -fx-text-fill:blue;
+    -fx-font-size:18.0px
+}
+
+#ipAddress{
+    -fx-background-color: #a7ffeb;
+}
+
+#ipAddress:focused{
+    -fx-background-color: #fff9c4;
+    -fx-text-fill:blue;
+    -fx-font-size:18.0px
+}
+
+#serverStatus{
+    -fx-background-color: #a7ffeb;
+}
+
+#serverStatus:focused{
+    -fx-background-color: #fff9c4;
+    -fx-text-fill:blue;
+    -fx-font-size:18.0px
+}
+
+#lastStatusUpdate{
+    -fx-background-color: #a7ffeb;
+}
+
+#lastStatusUpdate:focused{
+    -fx-background-color: #fff9c4;
+    -fx-text-fill:blue;
+    -fx-font-size:18.0px
+}
+
+#currentRenderFile {
+    -fx-background-color: #ffd0b0;
+ }
+
+#currentRenderFile:focused {
+    -fx-background-color: #fff9c4;
+    -fx-text-fill:blue;
+    -fx-font-size:18.0px
+}
+
+#renderStartTime {
+    -fx-background-color: #ffd0b0;
+ }
+
+#renderStartTime:focused {
+    -fx-background-color: #fff9c4;
+    -fx-text-fill:blue;
+    -fx-font-size:18.0px
+}
+
+#renderEndTime {
+    -fx-background-color: #ffd0b0;
+ }
+
+#renderEndTime:focused {
+    -fx-background-color: #fff9c4;
+    -fx-text-fill:blue;
+    -fx-font-size:18.0px
+}
+
+#lastRenderUpdate {
+    -fx-background-color: #ffd0b0;
+ }
+
+#lastRenderUpdate:focused {
+    -fx-background-color: #fff9c4;
+    -fx-text-fill:blue;
+    -fx-font-size:18.0px
+}
+
+#startFrame {
+    -fx-background-color: #ffd0b0;
+ }
+
+#startFrame:focused {
+    -fx-background-color: #fff9c4;
+    -fx-text-fill:blue;
+    -fx-font-size:18.0px
+}
+
+#endFrame {
+    -fx-background-color: #ffd0b0;
+ }
+
+#endFrame:focused {
+    -fx-background-color: #fff9c4;
+    -fx-text-fill:blue;
+    -fx-font-size:18.0px
+}
+
+#frameCount {
+    -fx-background-color: #ffd0b0;
+ }
+
+#frameCount:focused {
+    -fx-background-color: #fff9c4;
+    -fx-text-fill:blue;
+    -fx-font-size:18.0px
+}
+
+#currentFrame {
+    -fx-background-color: #ffd0b0;
+ }
+
+#currentFrame:focused {
+    -fx-background-color: #fff9c4;
+    -fx-text-fill:blue;
+    -fx-font-size:18.0px
+}
+
+#cumulativeRenderFrameCount {
+    -fx-background-color: #ffd0b0;
+ }
+
+#cumulativeRenderFrameCount:focused {
+    -fx-background-color: #fff9c4;
+    -fx-text-fill:blue;
+    -fx-font-size:18.0px
+}
+
+#renderOutputLocationAndFileName {
+    -fx-background-color: #ffd0b0;
+ }
+
+#renderOutputLocationAndFileName:focused {
+    -fx-background-color: #fff9c4;
+    -fx-text-fill:blue;
+    -fx-font-size:18.0px
+}
+
+#hangTimeThreshold {
+    -fx-background-color: #cfcfcf;
+ }
+
+#hangTimeThreshold:focused {
+    -fx-background-color: #fff9c4;
+    -fx-text-fill:blue;
+    -fx-font-size:18.0px
+}
+
+#suspendSwitch {
+    -fx-background-color: #b6e3ff;
+	-fx-focus-color: white;
+ }
+
+#suspendSwitch:focused {
+    -fx-background-color: #fff9c4;
+    -fx-text-fill:blue;
+    -fx-font-size:18.0px
+}
+
+#killSwitch {
+    -fx-background-color: #b6e3ff;
+	-fx-focus-color: white;
+ }
+
+#killSwitch:focused {
+    -fx-background-color: #fff9c4;
+    -fx-text-fill:blue;
+    -fx-font-size:18.0px
+}
+
+#backgroundSwitch {
+    -fx-background-color: #b6e3ff;
+	-fx-focus-color: white;
+ }
+
+#backgroundSwitch:focused {
+    -fx-background-color: #fff9c4;
+    -fx-text-fill:blue;
+    -fx-font-size:18.0px
+}
+
+/*
+.text-field:focused{
+    -fx-background-color: yellow;
+    -fx-text-fill:red;
+    -fx-font-size:18.0px
+}
+*/
+	
+.tooltip {
+    -fx-background: yellow;
+    -fx-text-fill: black;
+    -fx-background-color: yellow;
+    -fx-background-radius: 6px;
+    -fx-background-insets: 0;
+    -fx-padding: 0.667em 0.75em 0.667em 0.75em; /* 10px */
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.5) , 10, 0.0 , 0 , 3 );
+    -fx-font-size: 1.5em;
+}
+	

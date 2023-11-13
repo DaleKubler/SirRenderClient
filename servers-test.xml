@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servers>
+    <server>
+        <serverAvailable>true</serverAvailable>
+        <serverIpAddress>192.168.1.21</serverIpAddress>
+        <serverName>Dale PC</serverName>
+        <serverType>Windows</serverType>
+    </server>
+    <server>
+        <serverAvailable>false</serverAvailable>
+        <serverIpAddress>192.168.1.20</serverIpAddress>
+        <serverName>192.168.1.20</serverName>
+        <serverType>Windows</serverType>
+    </server>
+    <server>
+        <serverAvailable>false</serverAvailable>
+        <serverIpAddress>192.168.1.29</serverIpAddress>
+        <serverName>DESKTOP-45KPE4U</serverName>
+        <serverType>Windows</serverType>
+    </server>
+</servers>
