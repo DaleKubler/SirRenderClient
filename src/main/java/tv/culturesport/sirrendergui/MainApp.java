@@ -337,9 +337,9 @@ public class MainApp extends Application {
         GlobalClass.setLastPollTime(Utils.getCurrentTime());
 
 		if (args.length > 1) {
-			MainApp.log.debug("Usage: java -jar SirRenderClient.jar <port number>");
+			MainApp.log.debug("Usage: java -jar SirRender2Client.jar <port number>");
 			MainApp.log.debug("or");
-			MainApp.log.debug("Usage: java -jar SirRenderClient.jar");
+			MainApp.log.debug("Usage: java -jar SirRender2Client.jar");
 			System.exit(1);
 		} else if (args.length == 1) {
 			GlobalClass.setPortNumber(Integer.valueOf(args[0]));

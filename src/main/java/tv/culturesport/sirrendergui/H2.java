@@ -38,7 +38,7 @@ public class H2 {
 			Class.forName("org.h2.Driver");
 			//Connection conn = DriverManager.getConnection("jdbc:h2:file:U:/SirRender/databases/SirRenderDb;AUTO_SERVER=TRUE;TRACE_MAX_FILE_SIZE=2");
 			//Connection conn = DriverManager.getConnection("jdbc:h2:file:U:/SirRender/databases/SirRenderDb;AUTO_SERVER=TRUE");
-			Connection conn = DriverManager.getConnection("jdbc:h2:file:"+ApplicationConstants.DEFAULT_SIRRENDER_LAN_DRIVE+":/SirRender/databases/SirRenderDb;AUTO_SERVER=TRUE");
+			Connection conn = DriverManager.getConnection("jdbc:h2:file:"+ApplicationConstants.DEFAULT_SIRRENDER_LAN_DRIVE+":/SirRender2/databases/SirRender2Db;AUTO_SERVER=TRUE");
         	//MasterMain.log.debug("Obtained a database conection");
 			return conn;
 		} catch (DbException dbe) {

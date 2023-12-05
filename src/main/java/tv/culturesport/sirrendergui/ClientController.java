@@ -510,10 +510,10 @@ public class ClientController {
 	 */
     public ClientController() {
     	/*
-    	serverRenderLogData.add(new ServerRenderLog("192.168.1.35", "Dale-HP","Completed processing \"V:\\SirRender\\tmpBlenderIn\\test2.blend\"","04/24/2017","01:16:36",4546));
-    	serverRenderLogData.add(new ServerRenderLog("192.168.1.35", "Dale-HP","Started processing \"V:\\SirRender\\tmpBlenderIn\\test2.blend\"","04/24/2017","01:16:35",4545));
-    	serverRenderLogData.add(new ServerRenderLog("192.168.1.35", "Dale-HP","Cancelled processing \"V:\\SirRender\\tmpBlenderIn\\test1.blend\"","04/24/2017","01:17:38",4548));
-    	serverRenderLogData.add(new ServerRenderLog("192.168.1.35", "Dale-HP","Started processing \"V:\\SirRender\\tmpBlenderIn\\test1.blend\"","04/24/2017","01:17:37",4547));
+    	serverRenderLogData.add(new ServerRenderLog("192.168.1.35", "Dale-HP","Completed processing \"V:\\SirRender2\\tmpBlenderIn\\test2.blend\"","04/24/2017","01:16:36",4546));
+    	serverRenderLogData.add(new ServerRenderLog("192.168.1.35", "Dale-HP","Started processing \"V:\\SirRender2\\tmpBlenderIn\\test2.blend\"","04/24/2017","01:16:35",4545));
+    	serverRenderLogData.add(new ServerRenderLog("192.168.1.35", "Dale-HP","Cancelled processing \"V:\\SirRender2\\tmpBlenderIn\\test1.blend\"","04/24/2017","01:17:38",4548));
+    	serverRenderLogData.add(new ServerRenderLog("192.168.1.35", "Dale-HP","Started processing \"V:\\SirRender2\\tmpBlenderIn\\test1.blend\"","04/24/2017","01:17:37",4547));
     	*/
     }
 

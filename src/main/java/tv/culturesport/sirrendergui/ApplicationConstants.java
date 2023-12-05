@@ -7,7 +7,7 @@ package tv.culturesport.sirrendergui;
 
 public class ApplicationConstants {
 
-	public static final String DEFAULT_SIRRENDER_LAN_DRIVE = "X";
+	public static final String DEFAULT_SIRRENDER_LAN_DRIVE = "V";
 	public static final String AWAITING_YOUR_COMMAND = "Awaiting your command...";
 	public static final String DATABASE_UPDATE_OK = "DATABASE_UPDATE_OK";
 	public static final String OVERRIDE_OUTPUT_DIR = " (Override internal Blender output path)";
@@ -17,10 +17,10 @@ public class ApplicationConstants {
 	public static final String RENDER_CMD_FILE = "RENDER_CMD_FILE";
 	public static final String RENDER_FILE = "RENDER_FILE";
 	public static final String FILENAME = "Filename?";
-	public static final String SIRRENDER_SERVER_TITLE = "SirRender Server - Version 2.4";
-	public static final String SIRRENDER_SERVER_CONSOLE_TITLE = "SirRender Server Console - Version 2.4";
-	public static final String SIRRENDER_CLIENT_TITLE = "SirRender Client - Version 2.4\r\n\r\n";
-	public static final String SIRRENDER_CLIENTBATCH_TITLE = "SirRender ClientBatch - Version 2.4\r\n\r\n";
+	public static final String SIRRENDER_SERVER_TITLE = "SirRender Server - Version 3.0";
+	public static final String SIRRENDER_SERVER_CONSOLE_TITLE = "SirRender Server Console - Version 3.0";
+	public static final String SIRRENDER_CLIENT_TITLE = "SirRender Client - Version 3.0\r\n\r\n";
+	public static final String SIRRENDER_CLIENTBATCH_TITLE = "SirRender ClientBatch - Version 3.0\r\n\r\n";
 	public static final String SIRRENDER_MONITOR_TITLE = "SirRender Monitor - Version 2.0\r\n\r\n";
 	public static final String SIRRENDER_SERVER_ANNOUNCE = " reporting for duty\r\n(Ctrl-C to exit server)\n\r\n";
 	public static final String NO_IO_FOR_CONNECTION = "Couldn't get I/O for the connection to ";
@@ -34,17 +34,17 @@ public class ApplicationConstants {
 	public static final String CLIENT_CONNECT_CLOSED = "Client connect closed";
 	public static final String VALID_COMMANDS = "Valid commands: help, render, quit";
 	public static final String TRY_AGAIN = "Try again.";
-	public static final String DEFAULT_PATH = DEFAULT_SIRRENDER_LAN_DRIVE+":\\SirRender\\";
-	public static final String DEFAULT_TMP_PATH = DEFAULT_SIRRENDER_LAN_DRIVE+":\\SirRender\\temp\\";
-	public static final String DEFAULT_OUTPUT_PATH = DEFAULT_SIRRENDER_LAN_DRIVE+":\\SirRender\\tmpBlenderOut\\";
-	public static final String DEFAULT_INPUT_PATH = DEFAULT_SIRRENDER_LAN_DRIVE+":\\SirRender\\tmpBlenderIn\\";
+	public static final String DEFAULT_PATH = DEFAULT_SIRRENDER_LAN_DRIVE+":\\SirRender2\\";
+	public static final String DEFAULT_TMP_PATH = DEFAULT_SIRRENDER_LAN_DRIVE+":\\SirRender2\\temp\\";
+	public static final String DEFAULT_OUTPUT_PATH = DEFAULT_SIRRENDER_LAN_DRIVE+":\\SirRender2\\tmpBlenderOut\\";
+	public static final String DEFAULT_INPUT_PATH = DEFAULT_SIRRENDER_LAN_DRIVE+":\\SirRender2\\tmpBlenderIn\\";
 	public static final String DEFAULT_SERVERLOG_CSV_DIRECTORY = DEFAULT_SIRRENDER_LAN_DRIVE+":\\";
 	public static final String ENV_SIRRENDER_IP_ADDRESS = "SIRRENDER_IP_ADDRESS";
 	public static final String ENV_SIRRENDER_TMP_PATH = "SIRRENDER_TMP_PATH";
 	public static final String ENV_SIRRENDER_BLENDER_INPUT_PATH = "SIRRENDER_BLENDER_INPUT_PATH";
 	public static final String ENV_SIRRENDER_BLENDER_OUTPUT_PATH = "SIRRENDER_BLENDER_OUTPUT_PATH";
 	public static final String END = "END";
-	public static final String TMP_FILE_PREFIX = "SirRender";
+	public static final String TMP_FILE_PREFIX = "SirRender2";
 	public static final String TMP_FILE_EXTENSION = ".bat";
 	public static final String RENDER_PROCESS_STARTED_FOR = "Render process started for ";
 	public static final String RENDER_PROCESS_IN_PROGRESS_FOR = "Render process running for ";
@@ -71,7 +71,7 @@ public class ApplicationConstants {
 	public static final String RENDER_UPDATE_KILL_SWITCH = "RENDER_UPDATE_KILL_SWITCH";
 	public static final String LOG_SERVERLOG_MESSAGE = "LOG_SERVERLOG_MESSAGE";
 	public static final String CREATE_SERVERLOG_CSV_FILE = "CREATE_SERVERLOG_CSV_FILE";
-	public static final String DEFAULT_SERVERLOG_CSV_FILE_NAME = "SirRenderLogFile.csv";
+	public static final String DEFAULT_SERVERLOG_CSV_FILE_NAME = "SirRender2LogFile.csv";
 	public static final String CSV_FILE_EXTENSION = ".csv";
 	public static final String LOG_GET_SERVERLOG_LIST = "LOG_GET_SERVERLOG_LIST";
 	public static final String LOG_GET_SERVERLOG_SERVER_NAME = "LOG_GET_SERVERLOG_SERVER_NAME";
@@ -93,7 +93,7 @@ public class ApplicationConstants {
 	public static final String RENDER_POLL_SCHEDULE_QUEUE = "RENDER_POLL_SCHEDULE_QUEUE";
 	public static final String RENDER_GET_COMPUTER_IP_ALL_FILES_LIST = "RENDER_GET_COMPUTER_IP_ALL_FILES_LIST";
 	public static final String GET_MASTER_SERVER_IP_ADDRESS = "GET_MASTER_SERVER_IP_ADDRESS";
-	public static final String MASTER_SERVER_IP_ADDRESS_TXT_FILE = "/SirRender/databases/masterServerIpAddress.txt";
+	public static final String MASTER_SERVER_IP_ADDRESS_TXT_FILE = "/SirRender2/databases/masterServerIpAddress.txt";
 	public static final String PURGE_STALE_SERVERS = "PURGE_STALE_SERVERS";
 	public static final String INSERT_DUMMY_SERVER_QUEUE_FILE = "INSERT_DUMMY_SERVER_QUEUE_FILE";
 	public static final int    DEFAULT_REFRESH_SECONDS = 30;

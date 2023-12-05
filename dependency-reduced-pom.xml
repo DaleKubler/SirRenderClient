@@ -2,9 +2,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>tv.culturesport.sirrendergui</groupId>
-  <artifactId>SirRenderClient</artifactId>
-  <name>SirRender Client</name>
-  <version>2.4</version>
+  <artifactId>SirRender2Client</artifactId>
+  <name>SirRender2 Client</name>
+  <version>3.0</version>
   <url>http://maven.apache.org</url>
   <build>
     <finalName>${project.artifactId}</finalName>
@@ -88,7 +88,7 @@
   </dependencies>
   <properties>
     <skipTests>true</skipTests>
-    <main.basedir>/Users/dalek/workspace/SirRenderGUI</main.basedir>
+    <main.basedir>/Users/DaleK/git/SirRenderClient</main.basedir>
     <maven.compiler.source>1.8</maven.compiler.source>
     <jdkVersion>1.8</jdkVersion>
     <maven.compiler.target>1.8</maven.compiler.target>

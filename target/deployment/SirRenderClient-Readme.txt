@@ -4,22 +4,22 @@ A network rendering farm application written by Joe Kubler (with a little help f
 
 Files:
 ------
-SirRender.jar (The main client/server application)
-runSirRenderClient.bat (Executes the SirRender client)
-runSirRenderServer.bat (Executes the SirRender server)
+SirRender2.jar (The main client/server application)
+runSirRenderClient.bat (Executes the SirRender2 client)
+runSirRenderServer.bat (Executes the SirRender2 server)
 
 
 
 
 Default File Locations and Environment Variable Overrides):
 -----------------------------------------------------------
-U:\\SirRender\\temp\\ (SIRRENDER_TMP_PATH) - Location where all temporary files are written to
-                                           - SirRender temporary files are automatically deleted when the server closes)
+V:\\SirRender2\\temp\\ (SIRRENDER_TMP_PATH) - Location where all temporary files are written to
+                                           - SirRender2 temporary files are automatically deleted when the server closes)
 
-U:\\SirtRender\\tmpBlenderIn\\ (SIRRENDER_BLENDER_INPUT_PATH) - Location of *.blend source files
+V:\\SirRender2\\tmpBlenderIn\\ (SIRRENDER_BLENDER_INPUT_PATH) - Location of *.blend source files
                                                               - All servers should use the same network location
 
-U:\\SirRender\\tmpBlenderOut\\ (SIRRENDER_BLENDER_OUTPUT_PATH) - Location of rendered *.png files
+V:\\SirRender2\\tmpBlenderOut\\ (SIRRENDER_BLENDER_OUTPUT_PATH) - Location of rendered *.png files
                                                                - All servers should use the same network location
 
 
@@ -37,7 +37,7 @@ Installation:
    which server the client will be talking to (e.g. runSirRenderClient-JOE.bat, runSirRenderClientGREG.bat,
    runSirRenderClientJOHN-MICHAEL.bat, etc.)  THIS IS TEMPORARY
 
-4. Set the ennvironment variables on each server as desired.  This is only requirted if you want 
+4. Set the environment variables on each server as desired.  This is only required if you want 
    to override the defaults.  I can change the defaults locations as desired once you determine
    the common network mapping location you will be using for all the servers.
 
@@ -51,7 +51,7 @@ Execution:
 2.  Start the client application for the server you want to communicate with.  Again, this is temporary until
     the user interface GUI is developed.
 
-3.  Press enter on the command line for a lite of avauilable commands (help, render, quit)
+3.  Press enter on the command line for a list of available commands (help, render, quit)
 
 4.  On the client screen, type render and ENTER
 
@@ -61,13 +61,13 @@ Execution:
 
 7.  Only one file at a time currently.
 
-8.  I will start to add statistics, monitoring or where the swervers are in the render process, etc. after the GUI is coimpleted.
+8.  I will start to add statistics, monitoring or where the swervers are in the render process, etc. after the GUI is completed.
 
-9.  You may start or stop (quit) a client at anytime.  
+9.  You may start or stop (quit) a client at any time.  
     Once a server starts rendering a file, the client is no longer required.
 
 10. The server will continue to run until you type CTRL-C in the server window to close the server.
     Once a server starts rendering a file, the server is no longer required however, I would leave
-    it running so it will be availabler to accept the next client request.  Also, if you close
-    the seerver while it is rendering a file, the render window will not automatically close and
+    it running so it will be available to accept the next client request.  Also, if you close
+    the server while it is rendering a file, the render window will not automatically close and
     will have to be closed manually.
